@@ -1,0 +1,42 @@
+body
+{
+    padding:0;
+    margin:0;
+    background-image: url("27324905-programming-wallpapers.png");
+    background-size:cover;
+}
+.loginbox
+{
+
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:350px;
+    height:420px;
+    padding:80px 40px;
+    box-sizing:border-box;
+    border:1px;
+    background:rgba(0,0,0,0.5);
+
+}
+.user
+{
+
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    overflow:hidden;
+    position:absolute;
+    top:calc(-100px/2);
+    left:calc(50% - 50px);
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color:mintcream;
+}
+.sub
+{
+    margin-top:15px;
+}
